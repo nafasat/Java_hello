@@ -8,5 +8,11 @@ pipeline {
       }
     }
 
+    stage('Java Hello Check') {
+      steps {
+        sh 'java HelloWorld'
+      }
+    }
+
   }
 }
